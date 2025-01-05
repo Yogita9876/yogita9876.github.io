@@ -4,7 +4,7 @@
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@yoggita)&nbsp;&nbsp;&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yogita-singh-data-enthusiast/)&nbsp;&nbsp;&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yogita9876)&nbsp;&nbsp;&nbsp;
-[![Resume](https://img.shields.io/badge/Resume-Download-success?style=for-the-badge)](resume.pdf)
+[![Resume](https://img.shields.io/badge/Resume-Download-success?style=for-the-badge)](assets/Yogita_Resume.pdf)
 
 ## Certifications
 
