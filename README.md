@@ -1,18 +1,14 @@
 # Hi! I am Yogita Singh
 ## A Data Scientist with a passion for turning data into actionable insights for Business growth
 
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@yoggita)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yogita-singh-data-enthusiast/)
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yogita9876)
-
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@yoggita)&nbsp;&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yogita-singh-data-enthusiast/)&nbsp;&nbsp;&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yogita9876)&nbsp;&nbsp;&nbsp;
 [![Resume](https://img.shields.io/badge/Resume-Download-success?style=for-the-badge)](resume.pdf)
 
 ## Certifications
 
-<img src="images/AWS-Certified-Machine-Learning-Specialty.png" alt="AWS Certified ML Specialty" width="150"/>
-
+<img src="images/AWS-Certified-Machine-Learning-Specialty.png" alt="AWS Certified ML Specialty" width="150"/>&nbsp;&nbsp;&nbsp;
 <img src="images/aws-cloud-practitioner.png" alt="AWS Cloud Practitioner" width="150"/>
 
 ## About Me
