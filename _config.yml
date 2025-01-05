@@ -1,5 +1,25 @@
-title: Yogita Singh
-logo: /images/profilePic.jpg
-description: Lead Data Scientist @ Heliometrics
-#show_downloads: true
-theme: jekyll-theme-minimal
+# title: Yogita Singh
+# logo: /images/profilePic.jpg
+# description: Lead Data Scientist @ Heliometrics
+# #show_downloads: true
+# theme: jekyll-theme-minimal
+
+title: Yogita Singh - Data Science Portfolio
+description: AWS ML Certified Data Scientist | Machine Learning Engineer
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+logo: profile-photo.jpg # Add your profile photo
+
+# Social Links
+social_links:
+  medium: yoggita
+  linkedin: yogita-singh-data-enthusiast
+  github: Yogita9876
+
+# Navigation and Features
+show_downloads: true # This enables the resume download button
+google_analytics: [Your tracking ID] # Optional
+
+# Custom Settings
+resume_path: /assets/resume.pdf
