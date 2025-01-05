@@ -1,12 +1,19 @@
-# Yogita Singh
-## Data Scientist & AWS ML Certified Professional
+# Hi! I am Yogita Singh
+## A Data Scientist with a passion for turning data into actionable insights for Business growth
 
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@yoggita)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yogita-singh-data-enthusiast/)
+
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yogita9876)
+
 [![Resume](https://img.shields.io/badge/Resume-Download-success?style=for-the-badge)](resume.pdf)
 
-<img src="aws-certified-machine-learning-specialty.png" alt="AWS ML Specialty" width="150"/>
+## Certifications
+
+<img src="images/AWS-Certified-Machine-Learning-Specialty.png" alt="AWS Certified ML Specialty" width="150"/>
+
+<img src="images/aws-cloud-practitioner.png" alt="AWS Cloud Practitioner" width="150"/>
 
 ## About Me
 Data enthusiast with expertise in machine learning and AWS cloud technologies. AWS Certified Machine Learning Specialty certified professional passionate about turning data into actionable insights.
@@ -62,5 +69,5 @@ Data enthusiast with expertise in machine learning and AWS cloud technologies. A
 
 ## Certifications
 - AWS Machine Learning Specialty
-images/AWS-Certified-Machine-Learning-Specialty.png
+
 - [Add other certifications]
