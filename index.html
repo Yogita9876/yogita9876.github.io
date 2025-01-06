@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #f8f9fa;
+        }
+
+        .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            margin-left: 1.5rem;
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #2B3A67;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 2rem auto;
+            object-fit: cover;
+            border: 3px solid #2B3A67;
+        }
+
+        .name-title {
+            font-size: 2rem;
+            margin: 1rem 0;
+            font-weight: bold;
+        }
+
+        .designation {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .social-links {
+            margin: 1.5rem 0;
+        }
+
+        .social-links a {
+            margin: 0 1rem;
+            font-size: 1.5rem;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #007bff;
+        }
+
+        .about-me {
+            margin: 2rem 0;
+            text-align: left;
+            padding: 0 1rem;
+        }
+
+        .skills {
+            margin: 2rem 0;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .skill-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .skill-item img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="name">Yogita Singh</div>
+        <nav class="nav-links">
+            <a href="https://github.com/Yogita9876" target="_blank">GitHub</a>
+            <a href="https://medium.com/@yoggita" target="_blank">Medium</a>
+            <a href="https://www.linkedin.com/in/yogita-singh-data-enthusiast/" target="_blank">LinkedIn</a>
+            <a href="portfolio.html" target="_blank">Portfolio</a>
+            <a href="about.html" target="_blank">About</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <img src="/images/profilePic.jpg" alt="Profile Picture" class="profile-pic">
+        <h1 class="name-title">Yogita Singh</h1>
+        <div class="designation">Machine Learning Engineer | Data Scientist</div>
+        <div class="email"><a href="mailto:yoggita@gmail.com">yoggita@gmail.com</a></div>
+
+        <div class="social-links">
+            <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://medium.com/@yourusername" target="_blank"><i class="fab fa-medium"></i></a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>I'm a Data Scientist with a Masters in Data Science and a Bachelors in Physics, currently working at Heliometrics. My work focuses on developing and deploying advanced AI systems that combine deep learning architectures with gradient boosting frameworks to detect sophisticated patterns in large-scale behavioral data, specializing in high-stakes fraud detection and risk analysis.
+              I'm building a presence in the data science community through technical writing on Medium, while actively engaging in public speaking and leadership as VP PR at Toastmasters. I'm passionate about making complex technical concepts accessible to others. </p>
+        </div>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <img src="/api/placeholder/50/50" alt="AWS">
+                    <span>AWS</span>
+                </div>
+                <div class="skill-item">
+                    <img src="/api/placeholder/50/50" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="skill-item">
+                    <img src="/api/placeholder/50/50" alt="SQL">
+                    <span>SQL</span>
+                </div>
+                <div class="skill-item">
+                    <img src="/api/placeholder/50/50" alt="Tableau">
+                    <span>Tableau</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
