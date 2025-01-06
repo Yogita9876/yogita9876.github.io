@@ -90,21 +90,25 @@
         }
 
         .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x:auto;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
             margin-top: 1rem;
+            padding: 1rem;
         }
 
         .skill-item {
             display: flex;
             flex-direction: column;
             align-items: center;
+            flex: 0 0 auto;
         }
 
         .skill-item img {
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
             margin-bottom: 0.5rem;
         }
     </style>
@@ -202,7 +206,7 @@
                 </div>
 
                 <div class="skill-item">
-                    <img src="/images/tableau_logo.png" width="1000" height="1000" alt="Tableau">
+                    <img src="/images/tableau_logo.png" width="150" height="150" alt="Tableau">
                     <!--<span>AWS</span>
                     -->
                 </div>
