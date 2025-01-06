@@ -91,18 +91,13 @@
 
         .skills-grid {
             display: flex;
-            flex-wrap: nowrap;
-            overflow-x:auto;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 1.5rem;
-            margin-top: 1rem;
-            padding: 1rem;
+            flex-wrap: wrap;         /* Allow wrapping to next line */
+            justify-content: center; /* Center items */
+            gap: 1rem;              /* Reduce gap between items */
+            padding: 0.5rem;        /* Reduce padding */
         }
 
         .skill-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
             flex: 0 0 auto;
         }
 
