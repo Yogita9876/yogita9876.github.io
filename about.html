@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>About - Yogita Singh</title>
     <style>
         body {
             margin: 0;
@@ -13,9 +13,27 @@
         }
 
         .header {
-            background-color: #f8f9fa;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             padding: 1rem 2rem;
-            text-align: center;
+            background-color: #f8f9fa;
+        }
+
+        .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            margin-left: 1.5rem;
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #2B3A67;
         }
 
         .main-content {
@@ -24,13 +42,19 @@
             padding: 0 2rem;
         }
 
+        .page-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #2B3A67;
+        }
+
         .section {
             margin-bottom: 2rem;
         }
 
         .section-title {
             color: #2B3A67;
-            border-bottom: 2px solid #007bff;
+            border-bottom: 2px solid #2B3A67;
             padding-bottom: 0.5rem;
             margin-bottom: 1rem;
         }
@@ -39,101 +63,62 @@
             margin-bottom: 1.5rem;
         }
 
-        .item-title {
-            font-weight: bold;
+        .experience-item span, .education-item span {
+            line-height: 1.5;
+            display: block;
             margin-bottom: 0.5rem;
-        }
-
-        .item-subtitle {
-            color: #666;
-            font-style: italic;
-            margin-bottom: 0.5rem;
-        }
-
-        .back-link {
-            display: inline-block;
-            margin: 1rem 0;
-            text-decoration: none;
-            color: #007bff;
         }
 
         .certification-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
-            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
         }
 
         .certification-item {
             display: flex;
-            flex-direction: column;
             align-items: center;
-            text-align: center;
-        }
-
-        .certification-item img {
-            width: 100px;
-            height: 100px;
-            margin-bottom: 1rem;
-            border-radius: 8px;
+            gap: 1rem;
         }
 
         .certification-item span {
-            font-weight: bold;
-        }
-
-        .education-item {
-            margin-bottom: 10px;
-        }
-
-        .education-item span {
             line-height: 1.5;
         }
     </style>
 </head>
 <body>
     <header class="header">
-        <h1>About Me</h1>
-        <a href="index.html" class="back-link">← Back to Profile</a>
+        <div class="name">Yogita Singh</div>
+        <nav class="nav-links">
+            <a href="https://github.com/Yogita9876" target="_blank">GitHub</a>
+            <a href="https://medium.com/@yoggita" target="_blank">Medium</a>
+            <a href="https://www.linkedin.com/in/yogita-singh-data-enthusiast/" target="_blank">LinkedIn</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">About</a>
+        </nav>
     </header>
 
     <main class="main-content">
+        <h1 class="page-title">About Me</h1>
+
         <div class="section">
             <h2 class="section-title">Who Am I</h2>
             <p>I am a Data Scientist, Machine Learning Engineer, Writer and a Public Speaker living in Austin Texas, US. </p>
-            <p>With over 6 years of experience in Data Science, Business Intelligence and Data Analytics I am currently working as a Full Stack Data Scientist at a healthcare startup called HelioMetrics Inc, a leader in Drug diversion investigation, simply put drug fraud.
-</p>
-            <p>My role involves building and maintaining end to end data pipelines, machine learning models and building dashboards for executives on top of that. Our product help hospitals across US find out the fraudulent transactions and the bad actors for the prescription medications in the entire supply chain starting from the distribution center to the moment it reaches to the patient. The main areas I specialise in are Predictive Modelling, Time Series Forecasting, Anomaly Detection and Natural Language Processing. 
-</p>
-            <p>I have a bachelors in physics, an MS in Data science and an MBA in marketing. My technical education, along with the experience and Business acumen help me seemlessly translate business pain point into technical solutions. </p>
+            <p>With over 6 years of experience in Data Science, Business Intelligence and Data Analytics I am currently working as a Full Stack Data Scientist at a healthcare startup called HelioMetrics Inc, a leader in Drug diversion investigation, simply put drug fraud.</p>
+            <p>My role involves building and maintaining end to end data pipelines, machine learning models and building dashboards for executives on top of that. Our product help hospitals across US find out the fraudulent transactions and the bad actors for the prescription medications in the entire supply chain starting from the distribution center to the moment it reaches to the patient. The main areas I specialise in are Predictive Modelling, Time Series Forecasting, Anomaly Detection and Natural Language Processing.</p>
+            <p>I have a bachelors in physics, an MS in Data science and an MBA in marketing. My technical education, along with the experience and Business acumen help me seemlessly translate business pain point into technical solutions.</p>
         </div>
+
         <div class="section">
             <h2 class="section-title">Experience</h2>
             <div class="experience-item">
                 <span>• <strong>Data Scientist II at HelioMetrics</strong> | Oct 2018 - Present | Minnesota, US</span>
             </div>
-
             <div class="experience-item">
                 <span>• <strong>Data Science Intern at Fire Dept</strong> | July 2018- Sep 2018 | Minnesota, US</span>
             </div>
-
             <div class="experience-item">
-                <span>• <strong>Faculty Associate Marketing at IILM University (MBA School) </strong> | May 2012 - Dec 2015 | Delhi, India</span>
-            </div>
-            
-        </div>
-
-        
-         <div class="section">
-            <h2 class="section-title">Certifications</h2>
-            <div class="certification-grid">
-                <div class="certification-item">
-                    <span>• AWS Certified Machine Learning - Specialty</span>
-                </div>
-                <div class="certification-item">
-                    <span>• AWS Certified Cloud Practitioner</span>
-                </div>
-                <!-- Add more certification items as needed -->
+                <span>• <strong>Faculty Associate Marketing at IILM University (MBA School)</strong> | May 2012 - Dec 2015 | Delhi, India</span>
             </div>
         </div>
 
@@ -150,8 +135,17 @@
             </div>
         </div>
 
-        
-       
+        <div class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certification-grid">
+                <div class="certification-item">
+                    <span>• AWS Certified Machine Learning - Specialty</span>
+                </div>
+                <div class="certification-item">
+                    <span>• AWS Certified Cloud Practitioner</span>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
