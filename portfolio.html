@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>Portfolio - Yogita Singh</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
     <style>
         body {
@@ -14,15 +14,39 @@
         }
 
         .header {
-            background-color: #f8f9fa;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             padding: 1rem 2rem;
-            text-align: center;
+            background-color: #f8f9fa;
+        }
+
+        .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            margin-left: 1.5rem;
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #2B3A67;
         }
 
         .main-content {
             max-width: 800px;
             margin: 2rem auto;
             padding: 0 1rem;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #2B3A67;
         }
 
         .project-card {
@@ -57,28 +81,25 @@
         }
 
         .project-links a:hover {
-            color: #007bff;
-        }
-
-        .back-link {
-            display: inline-block;
-            margin: 1rem 0;
-            text-decoration: none;
-            color: #007bff;
-        }
-
-        .back-link:hover {
-            text-decoration: underline;
+            color: #2B3A67;
         }
     </style>
 </head>
 <body>
     <header class="header">
-        <h1>My Portfolio</h1>
-        <a href="index.html" class="back-link">← Back to Profile</a>
+        <div class="name">Yogita Singh</div>
+        <nav class="nav-links">
+            <a href="https://github.com/Yogita9876" target="_blank">GitHub</a>
+            <a href="https://medium.com/@yoggita" target="_blank">Medium</a>
+            <a href="https://www.linkedin.com/in/yogita-singh-data-enthusiast/" target="_blank">LinkedIn</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">About</a>
+        </nav>
     </header>
 
     <main class="main-content">
+        <h1 class="page-title">My Portfolio</h1>
+        
         <div class="project-card">
             <h2 class="project-title">Waze Churn Prediction and Recommendation App</h2>
             <p class="project-description">
